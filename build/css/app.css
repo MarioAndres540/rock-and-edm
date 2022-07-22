@@ -358,9 +358,14 @@ h3 {
   font-size: 3rem;
 }
 
+body {
+  color: #F53756;
+}
+
 .header {
   background-color: #4cb8b3;
 }
+
 .header h1 {
   color: #ffffff;
 }
@@ -369,8 +374,21 @@ h3 {
   color: #ffffff;
   font-size: 2.4rem;
 }
+
 .navegacion-principal a:hover {
   color: #FEF46D;
 }
 
-/*# sourceMappingURL=app.css.map */
+.prueba {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.texto {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  color: black;
+  letter-spacing: 1px;
+}

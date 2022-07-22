@@ -6,7 +6,7 @@ function css (done){
     src('src/scss/**/*.scss') //Indentificar el arvhico de SASS
         .pipe( plumber() )
         .pipe( sass() ) // Compilarlo
-        .pipe(dest("build/css")) // Almacenarla en el disco duro
+        .pipe( dest("build/css")) // Almacenarla en el disco duro
      
     done();// callback que avisa a guloo cuando llegamos al final
 }
