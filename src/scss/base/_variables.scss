@@ -1,16 +1,19 @@
 // Tipografia
 
-$fuente_principal: 'Montserrat', sans-serif;
+$fuente_principal: "Montserrat", sans-serif;
 
 // colores
 
-$verde : #4cb8b3;
-$rojo : #F53756;
-$amarillo: #FEF46D;
-$morado : #752F97;
+$verde: #4cb8b3;
+$rojo: #f53756;
+$amarillo: #fef46d;
+$morado: #752f97;
 $negro: #000000;
 $blanco: #ffffff;
 
-body {
-    color: $rojo ;
-}
+// media queris
+
+$telefono: 480px;
+$tablet: 768;
+$desktop: 992px;
+$desktopXL: 1200px;
